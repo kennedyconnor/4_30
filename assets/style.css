@@ -1,5 +1,5 @@
 header {
-  background-color: darkslateblue;
+  background-color:rgba(0, 35, 155, 0.86);
   border-block-end-width: 2px;
   text-align: center; 
   width: 896px;
@@ -18,13 +18,15 @@ body {
 
 .row{
   display:flex;
-  height: 500px;
+  height: 450px;
 }
 
-#a h1{
+#apple h1{
   text-align: center;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 30px;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 .a{
   display: inline-block;
@@ -37,23 +39,50 @@ body {
   width: 410px
 }
 
+#apple {
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 440px;
+}
+
+#bravo {
+  font-size: 15px;
+  width: 400px;
+  padding-left: 5px;
+}
+
 .c{
   float:left;
-  width:20%
-
+  width: 186px;
+  padding-left: 75px;
+  padding-right: 25px;
+  padding-top: 50px;
+  font-size: 16px;
 }
 .c>h1 {
+  height: 50px;
   font-weight:normal;
   font-size: 16px;
   text-align:center;
-  padding: 60px 0px;
-  color:white;
-  background-color:blue;
-
+  padding-top: 40px;
+    color:white;
+  background-color:rgba(0, 0, 255, 0.602);
 }
-
+#i{
+  font-size: 12px;
+}
+#i h1{
+  font-weight: normal;
+  margin-bottom: 0px;
+}
 footer {
   height: 100px;
   width: 896px;
-  background-color: midnightblue
+  background-color: rgba(0, 35, 155, 0.86);
+}
+#jk {
+  height: 16px;
+  background-color: rgba(0, 44, 187, 0.315);
+
+};
 }
